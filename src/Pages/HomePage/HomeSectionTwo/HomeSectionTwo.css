@@ -1,6 +1,7 @@
 .homeSectionTwo{
     background: #ff8fa3;
     height: 120vh;
+    border-bottom: 2px solid black;
 }
 .homeSectionTwo .sendSpend{
     margin-top: 8rem;
