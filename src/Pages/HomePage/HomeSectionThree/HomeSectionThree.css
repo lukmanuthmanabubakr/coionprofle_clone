@@ -1,4 +1,17 @@
 .homeSectionThree{
-    height: 120vh;
+    height: 150vh;
     background: #ffe97f;
+}
+.homeSectionThree .homeSectionThreeContainer{
+    margin-top: 4rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+.homeSectionThree .homeSectionThreeFirst{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.homeSectionThree .homeSectionThreeFirst .payOne{
+    font-size: 1.8rem;
+    margin-top: 3rem;
 }
