@@ -1,0 +1,142 @@
+.homeSectionOne{
+    background-color: rgb(242, 237, 220);
+    height: 105vh;
+    border-bottom: 2px solid black;
+}
+.homeSectionOne .homeSectionOneContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 6rem;
+    padding-top: 20rem;
+    padding-left: 6rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.homeSectionOne .homeSectionOneContainer .secondContainer{
+    border: 2px solid black;
+    margin-top: -9rem;
+    width: 30%;
+}
+
+.homeSectionOne .homeSectionOneSave{
+    margin-top: -10rem;
+}
+.homeSectionOne .homeSectionOneSave .goVerified{
+    margin-top: 2rem;
+}
+
+.homeSectionOne .homeSectionOneSave .goVerified .money{
+    padding-bottom: 1.6rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.homeSectionOne .homeSectionOneSave .goVerified .myArticle{
+    font-size: 1.2rem;
+    color: black;
+}
+.homeSectionOne .homeSectionOneSave .goVerified span {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-left: 9px;
+    padding-right: 5px;
+    color: rgb(48, 45, 45);
+}
+
+.homeSectionOne .homeSectionOneSave .spend {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(49, 47, 47);
+}
+
+.homeSectionOne .homeSectionOneSave .getVid{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
+.homeSectionOne .homeSectionOneSave .getVid .toGet{
+    padding: 10px 27px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transition: all 400ms ease;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+}
+
+.homeSectionOne .homeSectionOneSave .getVid .toGet span {
+    padding-right: 9px;
+}
+
+.homeSectionOne .homeSectionOneSave .getVid .toGet:hover{
+    background: rgb(71, 70, 70);
+}
+.homeSectionOne .homeSectionOneSave .getVid .works{
+    padding: 1px 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background: none;
+    border: 1px solid rgb(0, 0, 0);
+    transition: all 400ms ease;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+}
+.homeSectionOne .homeSectionOneSave .getVid .works span {
+    padding-right: 9px;
+    font-size: 1.8rem;
+    padding-top: 5px;
+    color: rgb(34, 32, 32);
+}
+.homeSectionOne .homeSectionOneSave .getVid .works:hover {
+    background: rgb(238, 232, 232);
+}
+
+.homeSectionOne .backBy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    gap: 2rem;
+}
+.homeSectionOne .backBy .by{
+
+}
+.homeSectionOne .backBy img {
+    height: 2rem;
+    width: 9rem;
+}

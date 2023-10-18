@@ -1,0 +1,68 @@
+.homeSectionTwo{
+    background: #ff8fa3;
+    height: 120vh;
+}
+.homeSectionTwo .sendSpend{
+    margin-top: 8rem;
+}
+.homeSectionTwo .sendSpend .earn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(39, 37, 37);
+    margin-bottom: 2rem;
+}
+.homeSectionTwo .sendSpend .crypto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.homeSectionTwo .myContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 4rem;
+    padding-right: 4rem; */
+    margin-top: 6rem;
+    gap: 6rem;
+}
+.homeSectionTwo .myContainer .card{
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 4rem;
+    height: 40vh;
+    width: 20%;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.homeSectionTwo .myContainer .card .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.homeSectionTwo .myContainer .card .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(39, 37, 37);
+    margin-bottom: 1rem;
+}
+.homeSectionTwo .myContainer .card .description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}

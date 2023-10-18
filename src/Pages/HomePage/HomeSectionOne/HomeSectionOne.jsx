@@ -1,0 +1,78 @@
+import React from "react";
+import "./HomeSectionOne.css";
+import { NavLink } from "react-router-dom";
+import { GoVerified } from "react-icons/go";
+import { MdOutlinePhoneAndroid, MdArrowRight } from "react-icons/md";
+import celo from "../../../Asset/celomomo.webp"
+import combinator from "../../../Asset/combine.webp"
+import flori from "../../../Asset/flori.webp"
+
+const HomeSectionOne = () => {
+  return (
+    <div className="homeSectionOne">
+      <div className="homeSectionOneContainer">
+        <div className="homeSectionOneSave">
+          <p className="spend">
+            Save, spend and earn in <br /> dollars
+          </p>
+
+          <div className="goVerified">
+            <p className="money">
+              <article className="myArticle">
+                <GoVerified />
+              </article>
+              <span>Send</span> and receive money from anywhere
+            </p>
+            <p className="money">
+              <article className="myArticle">
+                <GoVerified />
+              </article>
+              <span>Spend </span> internationally with your USD card
+            </p>
+            <p className="money">
+              <article className="myArticle">
+                <GoVerified />
+              </article>
+              <span>Save </span> and stash your Dollars without worries
+            </p>
+          </div>
+
+          <div className="getVid">
+            <NavLink className="toGet">
+              
+              <span>
+                
+                <MdOutlinePhoneAndroid />
+              </span>
+              Get the app
+            </NavLink>
+            <NavLink className="works">
+              
+              <span>
+                
+                <MdArrowRight />
+              </span>
+              See how it works
+            </NavLink>
+          </div>
+        </div>
+        <div className="secondContainer"></div>
+      </div>
+      
+      <div className="backBy">
+        <p className="by">Backed by</p>
+        <NavLink>
+        <img src={celo} alt="celo" />
+        </NavLink>
+        <NavLink>
+        <img src={combinator} alt="combinator" />
+        </NavLink>
+        <NavLink>
+        <img src={flori} alt="flori" />
+        </NavLink>
+      </div>
+    </div>
+  );
+};
+
+export default HomeSectionOne;
