@@ -13,5 +13,21 @@
 }
 .homeSectionThree .homeSectionThreeFirst .payOne{
     font-size: 1.8rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
+    font-weight: 500;
+    color: rgb(39, 37, 37);
+    margin-bottom: 1rem;
+}
+
+.homeSectionThree .homeSectionThreeFirst .anyWhere{
+    font-size: 1.1rem;
+}
+.homeSectionThree .homeSectionThreeFirst .anytime{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.homeSectionThree .homeSectionThreeFirst img{
+    height: 20rem;
+    width: 20rem;
 }

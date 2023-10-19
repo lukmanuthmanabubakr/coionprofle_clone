@@ -11,12 +11,10 @@ const HomeSectionThree = () => {
         <div className="homeSectionThreeFirst">
           <article>
             <p className="payOne">Pay anyone, instantly</p>
-            <p className="anytime">
-              Send and receive money anytime, anywhere.</p> <p> It’s fast, free, and
-              seamless.
-            </p>
+            <p className="anytime">Send and receive money anytime,</p>
+            <p className="anyWhere"> anywhere it’s fast, free, and seamless.</p>
           </article>
-          <article>
+          <article className="myCoinImage">
             <img src={coinImg} alt="coinImg" />
           </article>
         </div>
@@ -26,11 +24,12 @@ const HomeSectionThree = () => {
             <img src={coin_img_two} alt="coinImg" />
           </article>
           <article>
-            <p>Pay anyone, instantly</p>
             <p>
-              Send and receive money anytime, anywhere. It’s fast, free, and
-              seamless.
+              Get a debit card to <br /> spend anywhere
             </p>
+            <p>Spend effortlessly with your Coinprofile</p>
+            <p>card in 150+ currencies with no hidden</p>
+            <p>fees</p>
           </article>
         </div>
 
