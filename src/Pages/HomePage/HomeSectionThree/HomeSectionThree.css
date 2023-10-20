@@ -1,6 +1,7 @@
 .homeSectionThree{
     height: 150vh;
     background: #ffe97f;
+    border-bottom: 2px solid black;
 }
 .homeSectionThree .homeSectionThreeContainer{
     margin-top: 4rem;
@@ -10,6 +11,7 @@
 .homeSectionThree .homeSectionThreeFirst{
     display: grid;
     grid-template-columns: auto auto;
+    margin-bottom: 2rem;
 }
 .homeSectionThree .homeSectionThreeFirst .payOne{
     font-size: 1.8rem;
@@ -30,4 +32,29 @@
 .homeSectionThree .homeSectionThreeFirst img{
     height: 20rem;
     width: 20rem;
+}
+
+/* second */
+
+.homeSectionThree .homeSectionThreeSecond{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 2rem;
+}
+.homeSectionThree .homeSectionThreeSecond img {
+    margin-left: 4rem;
+    height: 15rem;
+    margin-top: -2rem;
+    
+}
+.homeSectionThree .homeSectionThreeSecond .debitCard{
+    font-size: 1.8rem;
+    margin-top: -1rem;
+    font-weight: 500;
+    color: rgb(39, 37, 37);
+    margin-bottom: 1rem;
+}
+.homeSectionThree .homeSectionThreeSecond .spend{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
 }

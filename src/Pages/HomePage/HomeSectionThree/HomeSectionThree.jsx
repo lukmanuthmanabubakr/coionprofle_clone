@@ -19,27 +19,27 @@ const HomeSectionThree = () => {
           </article>
         </div>
 
-        <div>
+        <div className="homeSectionThreeSecond">
           <article>
             <img src={coin_img_two} alt="coinImg" />
           </article>
           <article>
-            <p>
+            <p className="debitCard">
               Get a debit card to <br /> spend anywhere
             </p>
-            <p>Spend effortlessly with your Coinprofile</p>
-            <p>card in 150+ currencies with no hidden</p>
-            <p>fees</p>
+            <p className="spend">Spend effortlessly with your Coinprofile</p>
+            <p className="currencies">card in 150+ currencies with no hidden</p>
+            <p className="fees">fees</p>
           </article>
         </div>
 
-        <div>
+        <div className="homeSectionThreeFirst">
           <article>
-            <p>Pay anyone, instantly</p>
-            <p>
-              Send and receive money anytime, anywhere. It’s fast, free, and
-              seamless.
+            <p  className="payOne">
+              Receive Dollar <br /> payments at a go
             </p>
+            <p className="anytime">Send and receive payments for</p>
+            <p className="anyWhere">international gigs easy and fast.</p>
           </article>
           <article>
             <img src={coin_img_three} alt="coinImg" />
