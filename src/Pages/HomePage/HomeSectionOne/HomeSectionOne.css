@@ -9,7 +9,6 @@
     padding-right: 6rem;
     padding-top: 20rem;
     padding-left: 6rem;
-    display: flex;
     gap: 1.5rem;
 }
 
@@ -139,4 +138,153 @@
 .homeSectionOne .backBy img {
     height: 2rem;
     width: 9rem;
+}
+
+@media (max-width: 1200px) {
+    .homeSectionOne .homeSectionOneContainer{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2rem;
+        padding-top: 20rem;
+        padding-left: 2rem;
+        display: flex;
+        gap: 3rem;
+    }
+}
+@media (max-width: 1024px) {
+    .homeSectionOne{
+        background-color: rgb(242, 237, 220);
+        height: 60vh;
+        border-bottom: 2px solid black;
+    }
+    .homeSectionOne .homeSectionOneContainer{
+        display: flex;
+        justify-content: space-between;
+        padding-right: .7rem;
+        padding-top: 22rem;
+        padding-left: .7rem;
+        display: flex;
+        gap: 6rem;
+    }
+    .homeSectionOne .homeSectionOneSave .spend {
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: rgb(49, 47, 47);
+    }
+    .homeSectionOne .homeSectionOneSave .goVerified span {
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding-left: 9px;
+        padding-right: 5px;
+        color: rgb(48, 45, 45);
+    }
+}
+@media (max-width: 900px) {
+    .homeSectionOne{
+        background-color: rgb(242, 237, 220);
+        height: 95vh;
+        border-bottom: 2px solid black;
+    }
+    .homeSectionOne .homeSectionOneContainer{
+        display: grid;
+        padding-right: 6rem;
+        padding-top: 12rem;
+        padding-left: 6rem;
+    }
+    .homeSectionOne .homeSectionOneContainer .secondContainer{
+        border: 2px solid black;
+        margin-top: -37rem;
+        width: 80%;
+        margin-left: 9rem;
+        height: 30vh;
+        margin-bottom: 2rem;
+    }
+    .homeSectionOne .homeSectionOneSave .getVid{
+       display: grid;
+        gap: 1rem;
+        margin-left: 7rem;
+        margin-top: 25rem;
+        width: 100%;
+    }
+    .homeSectionOne .backBy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -1rem;
+        gap: 2rem;
+    }
+}
+@media (max-width: 768px) {
+    .homeSectionOne{
+        background-color: rgb(242, 237, 220);
+        height: 110vh;
+        border-bottom: 2px solid black;
+    }
+    .homeSectionOne .homeSectionOneContainer{
+        display: grid;
+        padding-right: 6rem;
+        padding-top: 18rem;
+        padding-left: 6rem;
+    }
+    .homeSectionOne .homeSectionOneContainer .secondContainer{
+        border: 2px solid black;
+        margin-top: -35rem;
+        width: 80%;
+        margin-left: 5rem;
+        height: 30vh;
+        margin-bottom: 2rem;
+    }
+    .homeSectionOne .homeSectionOneSave .getVid{
+        display: grid;
+         gap: 1rem;
+         margin-left: 2rem;
+         margin-top: 25rem;
+         width: 100%;
+     }
+     br{
+        display: none;
+     }
+}
+@media (max-width: 600px) {
+    .homeSectionOne{
+        background-color: rgb(242, 237, 220);
+        height: 110vh;
+        border-bottom: 2px solid black;
+    }
+    .homeSectionOne .homeSectionOneContainer{
+        display: grid;
+        padding-right: 6rem;
+        padding-top: 15rem;
+        padding-left: 6rem;
+    }
+    .homeSectionOne .homeSectionOneSave .goVerified{
+       display: none;
+    }
+    .homeSectionOne .homeSectionOneSave .spend {
+        font-size: 2.3rem;
+        font-weight: 500;
+        color: rgb(49, 47, 47);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    br{
+        display: none;
+    }
+    .homeSectionOne .homeSectionOneContainer .secondContainer{
+        border: 2px solid black;
+        margin-top: -26rem;
+        width: 140%;
+        margin-left: -5rem;
+        height: 30vh;
+        margin-bottom: 2rem;
+    }
+
+    .homeSectionOne .homeSectionOneSave .getVid{
+        display: grid;
+         gap: 1rem;
+         margin-left: -5rem;
+         margin-top: 15rem;
+         width: 140%;
+     }
 }
