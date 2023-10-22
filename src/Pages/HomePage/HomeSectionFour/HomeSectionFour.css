@@ -1,3 +1,101 @@
 .homeSectionFour{
     background: #e7b9ff;
+    height: 150vh;
+}
+.homeSectionFour .ourWord{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+@media (max-width: 1024px) {
+    .homeSectionFour .ourWord{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-top: 10rem;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+} 
+.myDatalynis{
+    margin-top: 5rem;
+    margin-left: 18rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4rem;
+}
+.homeSectionFour .myDatalynis .myDatalynisCard{
+    background-color: white;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    padding-right: 1.5rem;
+    width: 80%;
+    height: 35vh;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+
+.homeSectionFour .myDatalynis .myDatalynisCard .myImageContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .twiteere .mytweet{
+    font-size: 3rem;
+    color: rgb(49, 47, 47);
+    height: 3.5rem;
+    width: 3.5rem;
+    background: #e7b9ff;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .twiteere{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .twiteere .nameSub .name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(49, 47, 47);
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .twiteere .nameSub .subName{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(49, 47, 47);
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .twiteere .nameSub{
+    margin-left: 1rem;
+    
+}
+.homeSectionFour .myDatalynis .myDatalynisCard .description{
+    display: flex;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    color: rgb(49, 47, 47);
+}
+.homeSectionFour .myDatalynis .myDatalynisCard img{
+    height: 5rem;
+    width: 5rem;
+    border: 3px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }

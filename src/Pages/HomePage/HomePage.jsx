@@ -11,9 +11,8 @@ const HomePage = () => {
         <Navbar />
         <HomeSectionOne />
         <HomeSectionTwo/>
-        {/*
         <HomeSectionThree/>
-        <HomeSectionFour/> */}
+        <HomeSectionFour/>
     </div>
   )
 }

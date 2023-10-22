@@ -58,3 +58,42 @@
     margin-bottom: 1rem;
     font-size: 1.1rem;
 }
+@media (max-width: 1200px) {
+    .homeSectionThree .homeSectionThreeContainer{
+        margin-top: 4rem;
+        padding-left: 5rem;
+    }
+    .homeSectionThree .homeSectionThreeFirst{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 6rem;
+        margin-bottom: 2rem;
+    }
+    .homeSectionThree .homeSectionThreeSecond{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 2rem;
+        gap: 5rem;
+    }
+}
+@media (max-width: 1024px) {
+    .homeSectionThree{
+        display: none;
+    }
+    .homeSectionThree .homeSectionThreeContainer{
+        margin-top: 4rem;
+        padding-left: 3rem;
+    }
+    .homeSectionThree .homeSectionThreeFirst{
+        display: grid;
+        gap: 6rem;
+        grid-template-columns: auto;
+        margin-bottom: 2rem;
+    }
+    .homeSectionThree .homeSectionThreeSecond{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 2rem;
+        gap: 5rem;
+    }
+}
