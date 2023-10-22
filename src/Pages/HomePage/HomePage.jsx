@@ -10,8 +10,8 @@ const HomePage = () => {
     <div>
         <Navbar />
         <HomeSectionOne />
-        {/*
         <HomeSectionTwo/>
+        {/*
         <HomeSectionThree/>
         <HomeSectionFour/> */}
     </div>
