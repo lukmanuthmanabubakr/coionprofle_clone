@@ -1,0 +1,21 @@
+.homeSectionFive{
+    background: #e9def0;
+    height: 150vh;
+}
+.homeSectionFive .countOnMe{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 12rem;
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.homeSectionFive .passionate{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(49, 47, 47);
+}

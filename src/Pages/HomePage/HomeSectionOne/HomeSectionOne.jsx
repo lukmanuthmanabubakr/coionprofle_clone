@@ -61,13 +61,13 @@ const HomeSectionOne = () => {
       
       <div className="backBy">
         <p className="by">Backed by</p>
-        <NavLink>
+        <NavLink target="_blank" to="https://celo.org/alliance">
         <img src={celo} alt="celo" />
         </NavLink>
-        <NavLink>
+        <NavLink target="_blank" to="https://www.ycombinator.com/companies/payourse">
         <img src={combinator} alt="combinator" />
         </NavLink>
-        <NavLink>
+        <NavLink target="_blank" to="https://www.floriventures.com/community">
         <img src={flori} alt="flori" />
         </NavLink>
       </div>

@@ -4,6 +4,7 @@ import HomeSectionOne from './HomeSectionOne/HomeSectionOne'
 import HomeSectionTwo from './HomeSectionTwo/HomeSectionTwo'
 import HomeSectionThree from './HomeSectionThree/HomeSectionThree'
 import HomeSectionFour from './HomeSectionFour/HomeSectionFour'
+import HomeSectionFive from './HomeSectionFive/HomeSectionFive'
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
         <HomeSectionTwo/>
         <HomeSectionThree/>
         <HomeSectionFour/>
+        <HomeSectionFive/>
     </div>
   )
 }
