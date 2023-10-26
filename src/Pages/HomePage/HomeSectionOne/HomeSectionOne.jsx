@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./HomeSectionOne.css";
 import { NavLink } from "react-router-dom";
 import { GoVerified } from "react-icons/go";
@@ -8,10 +10,13 @@ import combinator from "../../../Asset/combine.webp"
 import flori from "../../../Asset/flori.webp"
 
 const HomeSectionOne = () => {
+  useEffect(() => {
+    AOS.init({duration: "1000", delay: "500"})
+  }, [])
   return (
     <div className="homeSectionOne">
       <div className="homeSectionOneContainer">
-        <div className="homeSectionOneSave">
+        <div className="homeSectionOneSave" data-aos="fade-right">
           <p className="spend">
             Save, spend and earn in <br /> dollars
           </p>
@@ -56,10 +61,10 @@ const HomeSectionOne = () => {
             </NavLink>
           </div>
         </div>
-        <div className="secondContainer"></div>
+        <div className="secondContainer" data-aos="fade-left"></div>
       </div>
       
-      <div className="backBy">
+      <div className="backBy" data-aos="fade-up">
         <p className="by">Backed by</p>
         <NavLink target="_blank" to="https://celo.org/alliance">
         <img src={celo} alt="celo" />

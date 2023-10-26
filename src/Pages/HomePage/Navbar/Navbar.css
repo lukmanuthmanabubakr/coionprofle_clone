@@ -10,6 +10,7 @@
   border-bottom: 1px solid black;
   position: sticky;
   top: 0;
+  z-index: 999;
 }
 .navbarSec .brandName {
   font-size: 2rem;

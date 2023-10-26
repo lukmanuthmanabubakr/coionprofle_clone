@@ -8,7 +8,7 @@ const HomeSectionThree = () => {
   return (
     <section className="homeSectionThree">
       <div className="homeSectionThreeContainer">
-        <div className="homeSectionThreeFirst">
+        <div className="homeSectionThreeFirst" data-aos="fade-right">
           <article>
             <p className="payOne">Pay anyone, instantly</p>
             <p className="anytime">Send and receive money anytime,</p>
@@ -19,7 +19,7 @@ const HomeSectionThree = () => {
           </article>
         </div>
 
-        <div className="homeSectionThreeSecond">
+        <div className="homeSectionThreeSecond" data-aos="fade-left">
           <article>
             <img src={coin_img_two} alt="coinImg" />
           </article>
@@ -33,7 +33,7 @@ const HomeSectionThree = () => {
           </article>
         </div>
 
-        <div className="homeSectionThreeFirst">
+        <div className="homeSectionThreeFirst" data-aos="fade-right">
           <article>
             <p  className="payOne">
               Receive Dollar <br /> payments at a go

@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./HomeSectionTwo.css"
 import {BsSendFill} from "react-icons/bs"
 import {AiOutlineCreditCard} from "react-icons/ai"
 import {FiPercent} from "react-icons/fi"
+
 
 
 const data = [
@@ -29,11 +32,11 @@ const data = [
 const HomeSectionTwo = () => {
   return (
     <section className='homeSectionTwo'>
-      <div className='sendSpend'>
+      <div className='sendSpend' data-aos="zoom-in">
         <p className='earn'>Send, spend and earn <br/> with crypto and cash</p>
         <p className='crypto'>Live your life on crypto. Make day-to-day spending a <br/> breeze with cash any time you need it</p>
       </div>
-      <div className='myContainer'>
+      <div className='myContainer' data-aos="fade-up">
         {data.map(({id, icon, title, description}, index) => {
           return (
             <div className='card' key={index}>

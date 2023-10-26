@@ -53,10 +53,12 @@ const HomeSectionFour = () => {
   return (
     <section className="homeSectionFour">
       <p className="ourWord">
+        <div data-aos="zoom-in">
         Don’t just take our <br /> word for it
+        </div>
       </p>
 
-      <div className="myDatalynis">
+      <div className="myDatalynis" data-aos="fade-up">
         {data.map(
           ({ id, Name, subName, twitter, image, link, description }, index) => {
             return (
