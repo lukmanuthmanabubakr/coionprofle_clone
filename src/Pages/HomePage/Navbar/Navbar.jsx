@@ -6,10 +6,10 @@ const Navbar = () => {
   return (
     <div className='navbarSec'>
         <div>
-            <p className='brandName'>coinprofile</p>
+            <NavLink to="/" className='brandName'>coinprofile</NavLink>
         </div>
         <div>
-            <NavLink>
+            <NavLink className="getStateds">
                 Get Started
           </NavLink>
         </div>

@@ -16,9 +16,10 @@
   font-size: 2rem;
   font-weight: 600;
   font-family: sans-serif;
+  color: black;
   
 }
-.navbarSec a {
+.navbarSec .getStateds {
   padding: 10px 27px;
   color: rgb(255, 255, 255);
   border-radius: 5px;
@@ -43,7 +44,7 @@
   -ms-transition: all 400ms ease;
   -o-transition: all 400ms ease;
 }
-.navbarSec a:hover {
+.navbarSec .getStateds:hover {
   background: rgb(71, 70, 70);
 }
 @media (max-width: 1200px) {
@@ -78,7 +79,7 @@
     padding-right: 1rem;
     padding-left: 1rem;
   }
-  .navbarSec a {
+  .navbarSec .getStateds {
     padding: 12px 27px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -115,7 +116,7 @@
     padding-left: 1rem;
     padding-bottom: 1rem;
   }
-  .navbarSec a {
+  .navbarSec .getStateds {
     padding: 12px 27px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -152,7 +153,7 @@
     padding-left: .5rem;
     padding-bottom: 1rem;
   }
-  .navbarSec a {
+  .navbarSec .getStateds {
     padding: 12px 27px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -189,7 +190,7 @@
     padding-left: .6rem;
     padding-bottom: 1rem;
   }
-  .navbarSec a {
+  .navbarSec .getStateds {
     padding: 10px 27px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -226,7 +227,7 @@
     padding-left: .6rem;
     padding-bottom: 1rem;
   }
-  .navbarSec a {
+  .navbarSec .getStateds {
     padding: 10px 27px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
