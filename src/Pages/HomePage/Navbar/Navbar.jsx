@@ -9,7 +9,7 @@ const Navbar = () => {
             <NavLink to="/" className='brandName'>coinprofile</NavLink>
         </div>
         <div>
-            <NavLink className="getStateds">
+            <NavLink to="/login" className="getStateds">
                 Get Started
           </NavLink>
         </div>

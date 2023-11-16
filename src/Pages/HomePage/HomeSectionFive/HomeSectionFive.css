@@ -1,16 +1,16 @@
 .homeSectionFive{
     background: #e9def0;
-    height: 130vh;
+    height: 140vh;
     border-bottom: 2px solid black;
 }
 .homeSectionFive .countOnMe{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 12rem;
+    margin-top: 8rem;
     margin-bottom: 1.5rem;
     font-size: 3.5rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 .homeSectionFive .passionate{
     display: flex;
@@ -31,15 +31,16 @@
 .homeSectionFive .homeFiveOne img{
     height: 6rem;
     width: 6rem;
-    margin-left: 9rem;
+    margin-left: 6rem;
     margin-bottom: 1rem;
 }
 .homeSectionFive .homeFiveOne .myhomeFiveIndex .secondContent{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 1rem;
+    
 }
 .homeSectionFive .homeFiveOne .myhomeFiveIndex .firstContent{
     font-size: 2rem;
@@ -51,15 +52,15 @@
 .homeSectionFive .homeFiveOne .myhomeFiveIndex{
     background: white;
     gap: 3rem;
-    height: 45vh;
+    height: 48vh;
     width: auto;
     width: 25%;
     border: 2px solid black;
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
     padding-top: 4rem;
 }
 @media (max-width: 1200px) {

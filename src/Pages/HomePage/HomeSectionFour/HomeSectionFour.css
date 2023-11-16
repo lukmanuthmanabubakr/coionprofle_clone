@@ -8,13 +8,13 @@
   text-align: center;
   justify-content: center;
   padding-top: 10rem;
-  font-size: 3.5rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 500;
   margin-bottom: 2rem;
 }
 .myDatalynis {
   margin-top: 5rem;
-  margin-left: 18rem;
+  margin-left: 10rem;
   display: grid;
   grid-template-columns: auto auto;
   gap: 4rem;
@@ -35,7 +35,7 @@
   padding-right: 1.5rem;
   width: 80%;
   cursor: pointer;
-  height: 35vh;
+  height: 38vh;
   font-size: 1.5rem;
   border: 2px solid black;
   border-radius: 3rem;
@@ -72,6 +72,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -1rem;
 }
 .homeSectionFour .myDatalynis .myDatalynisCard .twiteere .nameSub .name {
   font-size: 1.5rem;

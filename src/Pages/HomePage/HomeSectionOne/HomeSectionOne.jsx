@@ -51,7 +51,7 @@ const HomeSectionOne = () => {
               </span>
               Get the app
             </NavLink>
-            <NavLink className="works">
+            <NavLink className="works" >
               
               <span>
                 
@@ -64,7 +64,7 @@ const HomeSectionOne = () => {
         <div className="secondContainer" data-aos="fade-left"></div>
       </div>
       
-      <div className="backBy" data-aos="fade-up">
+      <div className="backBy" data-aos="zoom-in">
         <p className="by">Backed by</p>
         <NavLink target="_blank" to="https://celo.org/alliance">
         <img src={celo} alt="celo" />

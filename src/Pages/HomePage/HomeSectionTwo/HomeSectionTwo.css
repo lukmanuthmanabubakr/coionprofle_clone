@@ -1,6 +1,6 @@
 .homeSectionTwo{
     background: #ff8fa3;
-    height: 120vh;
+    height: 130vh;
     border-bottom: 2px solid black;
 }
 .homeSectionTwo .sendSpend{
@@ -37,11 +37,11 @@
     padding-top: 4rem;
     height: 40vh;
     width: 20%;
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 
@@ -65,8 +65,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
 }
 
 /* media query */
